@@ -30,9 +30,6 @@ IPDeUsuarioB.append(bin(octeto3))
 IPDeUsuarioB.append(bin(octeto4))
 
 
-
-
-
 # #operaciones
 
 
@@ -90,19 +87,6 @@ if (IPClassC==claseDeIP):
     while(len(octetoB4)<10):
             octetoB4=octetoB4+"0"
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 IPDeUsuarioB[0]=(octetoB1.replace("b",""))
 IPDeUsuarioB[1]=(octetoB2.replace("b",""))
 IPDeUsuarioB[2]=(octetoB3.replace("b",""))
@@ -116,8 +100,8 @@ octeto4=(int(str(IPDeUsuarioB[3]),2))
 
 mascaraAdp=(str(octeto1)+"."+str(octeto2)+"."+str(octeto3)+"."+str(octeto4))
 if octeto4>=256:
-    print(str(mascaraAdp)+"padreeee ahhhhhhhhhhhhh tengo que programar estooooo yaaaaaaaa revisalo po favo me wo a automorir ciiii te voy a llenar de texto la terminal")
+    print(str(mascaraAdp))
     octeto4=255
-    print("Y los Host papi???\nlas saco del fufu vea??\nes para otra clase mi rey\n")
+    print("Y los Host papi???\nlas saco del gorro vea??\nes para otra clase mi rey\n")
 
 print("su mascara adaptada es: "+mascaraAdp)
